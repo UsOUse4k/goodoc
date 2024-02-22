@@ -41,7 +41,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       color: Colors.white,
                     ),
                   ),
-                  const SizedBox(height: 170),
+                  const Spacer(),
                   Container(
                     margin: const EdgeInsets.only(left: 11, right: 5),
                     width: 357,
@@ -174,6 +174,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                     ),
                   ),
+                  const Spacer(flex: 2),
                 ],
               ),
             ),

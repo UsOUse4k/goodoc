@@ -30,12 +30,12 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.only(
-            top: 150,
             left: 29,
             right: 29,
           ),
           child: Column(
             children: [
+              const Spacer(flex: 2),
               AnimatedSwitcher(
                 duration: const Duration(milliseconds: 500),
                 child: Image(
@@ -138,6 +138,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                   ),
                 ),
               ),
+              const Spacer(),
             ],
           ),
         ),
